@@ -1,0 +1,95 @@
+/*headerestilização de CSS */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 h2 h3 p{
+    margin: 0px;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: none;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    
+} 
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-content: center;
+        
+}
+
+.header-menu a {
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    color: #141414;
+
+}
+
+.introducao{
+    max-width: 1200px;
+    margin:10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 100px;
+    align-items: center;
+
+}
+
+
+.Experiencia{
+    max-width: 1200px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.Formacao{
+    max-width: 1200px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.Contatos{
+    max-width: 1200px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+
+}
