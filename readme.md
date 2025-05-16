@@ -1,2 +1,2 @@
-Teste de funcionamento e vinculçação
+Teste de funcionamento e vinculação
 
