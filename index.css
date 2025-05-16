@@ -1,0 +1,85 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.fixed-header .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.fixed-header .nav-menu ul li {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-menu ul li:hover{
+    color: #1bb127
+}
+.content {
+    display: flex;
+    column-gap: 10px; /* Espaço entre as colunas */
+    padding: 100px 20px 60px; /* Espaço para não cobrir o conteúdo com header/footer */
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.fixed-footer {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: fixed ; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #333;
+    color: #fff;
+    justify-items: center;
+    padding: 10px 20px;
+}
+.contato {
+ display: flex;
+ justify-content: center;
+ max-width: 1200px;
+ margin-top: 4px;
+ gap: 6px;
+}
+
+/* Estilo dos ícones de redes sociais */
+.fixed-footer .contato a img {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.fixed-footer .contato a img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
